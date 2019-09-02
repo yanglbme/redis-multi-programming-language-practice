@@ -10,22 +10,14 @@
 [![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/doocs)
 
 ## 前言
-本项目使用 Redis 最新稳定版本 v5.0，不同操作系统的安装方式如下：
+本项目所有演示代码均基于 Redis 最新稳定版本 `v5.0.3`，不同操作系统下 Redis 的安装方式请自行搜索，就不在此赘述了。
 
-- Mac：`brew install redis`
-- Ubuntu：`apt-get install redis`
-- Windows：访问 https://www.memurai.com/get-memurai 下载后安装程序。
-- 其它：请自行搜索安装方式，就不在此赘述了。
+另，本项目针对不同编程语言，使用了其对应的 Redis 库，方便程序对 Redis 进行各项操作：
 
-安装后，执行 `redis-cli` 命令即可启动 Redis 客户端。
-
-```bash
-C:\Users\user>redis-cli
-127.0.0.1:6379> keys *
- 1) "fruits"
- 2) "story"
- 3) "or-result"
-```
+| lang | lib | version | usage |
+|---|---|---|---|
+| Python3 | [`redis`](https://pypi.org/project/redis/) | `v3.2.1` | `pip3 install redis `|
+| Java8 | [`Jedis`](https://mvnrepository.com/artifact/redis.clients/jedis/3.1.0) | `v3.1.0` | `compile group: 'redis.clients', name: 'jedis', version: '3.1.0'` |
 
 ## Redis 数据结构与应用
 Redis 基础的数据结构有 5 种，分别是：
