@@ -1,4 +1,4 @@
-# Redis 底层原理分析与多语言应用实践
+# Redis 底层原理分析与多语言应用实践<sup>[©](https://github.com/yanglbme)</sup>
 [![license](https://badgen.net/github/license/doocs/redis-multi-programming-language-practice?color=green)](https://github.com/doocs/redis-multi-programming-language-practice/blob/master/LICENSE)
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 [![stars](https://badgen.net/github/stars/doocs/redis-multi-programming-language-practice)](https://github.com/doocs/redis-multi-programming-language-practice/stargazers)
@@ -30,6 +30,7 @@
 ### 3. [Set 集合](/docs/redis-set-introduction.md)
 
 ### 4. [Sorted Sets 有序集合](/docs/redis-sorted-set-introduction.md)
+- [社交网站经常会有粉丝关注的功能，用 Redis 怎么实现？](/docs/redis-sorted-set-sns-follow.md)
 
 ### 5. [Hash 哈希](/docs/redis-hash-introduction.md)
 - [登录会话，用 Redis 该怎么做？](/docs/redis-hash-session-token.md)
