@@ -2,7 +2,10 @@
 
 
 ## 代码实现
-1. Python 版本
+| [Python](#Python-版本) | [Java](#Java-版本) |
+|---|---|
+
+### Python 版本
 
 ```python
 import random
@@ -49,7 +52,7 @@ if __name__ == '__main__':
     print(lock.acquire())  # True
 ```
 
-2. Java 版本
+### Java 版本
 
 ```java
 import redis.clients.jedis.Jedis;

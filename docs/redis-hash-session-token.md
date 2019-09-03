@@ -2,7 +2,10 @@
 
 
 ## 代码实现
-1. Python 版本
+| [Python](#Python-版本) | [Java](#Java-版本) |
+|---|---|
+
+### Python 版本
 
 ```python
 import os
@@ -86,7 +89,7 @@ if __name__ == '__main__':
     print(res)  # SESSION_NOT_LOGIN
 ```
 
-2. Java 版本
+### Java 版本
 
 ```java
 import org.apache.commons.codec.binary.Hex;

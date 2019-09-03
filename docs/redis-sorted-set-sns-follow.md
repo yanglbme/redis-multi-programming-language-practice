@@ -7,7 +7,10 @@
 - Sorted Set 可以获取两用户之间的共同关注。
 
 ## 代码实现
-1. Python 版本
+| [Python](#Python-版本) | [Java](#Java-版本) |
+|---|---|
+
+### Python 版本
 
 ```python
 from time import time
@@ -87,7 +90,7 @@ if __name__ == '__main__':
     print(bingo.get_common_following('Iris'))  # ['GitHub']
 ```
 
-2. Java 版本
+### Java 版本
 - JedisUtils.java
 
 ```java

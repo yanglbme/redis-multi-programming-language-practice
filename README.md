@@ -22,7 +22,7 @@
 ## Redis 数据结构与应用
 
 ### 1. [String 字符串](/docs/redis-string-introduction.md)
-- [说说分布式锁的实现方式？](/docs/redis-distributed-lock.md)
+- [说说如何基于 Redis 实现分布式锁？](/docs/redis-distributed-lock.md)
 
 ### 2. [List 列表](/docs/redis-list-introduction.md)
 - 如何利用 Redis List 实现异步消息队列？
