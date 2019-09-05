@@ -27,6 +27,9 @@
 | 1 | Redis 深度历险：核心原理和应用实践[2018] | 钱文品 | ⭐⭐⭐⭐⭐ |
 | 2 | Redis 使用手册[2019] | 黄健宏 | ⭐⭐⭐⭐⭐ |
 
+
+学习下面知识之前，先来[感受一波 Redis 面试连环炮](/docs/redis-interview.md)。
+
 ## Redis 数据结构与应用
 
 ### [String 字符串](/docs/redis-string-introduction.md)
