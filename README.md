@@ -37,6 +37,7 @@
 
 ### [List 列表](/docs/redis-list-introduction.md)
 - 如何利用 Redis List 实现异步消息队列？
+- [用 Redis 如何实现页面数据分页的效果？](/docs/redis-list-paginate.md)
 
 ### [Set 集合](/docs/redis-set-introduction.md)
 
