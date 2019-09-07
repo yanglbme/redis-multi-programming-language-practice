@@ -1,10 +1,5 @@
 # Redis 底层原理分析与多语言应用实践<sup>[©](https://github.com/yanglbme)</sup>
-[![license](https://badgen.net/github/license/doocs/redis-multi-programming-language-practice?color=green)](https://github.com/doocs/redis-multi-programming-language-practice/blob/master/LICENSE)
-[![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
-[![stars](https://badgen.net/github/stars/doocs/redis-multi-programming-language-practice)](https://github.com/doocs/redis-multi-programming-language-practice/stargazers)
-[![contributors](https://badgen.net/github/contributors/doocs/redis-multi-programming-language-practice)](https://github.com/doocs/redis-multi-programming-language-practice/graphs/contributors)
-[![help-wanted](https://badgen.net/github/label-issues/doocs/redis-multi-programming-language-practice/help%20wanted/open)](https://github.com/doocs/redis-multi-programming-language-practice/labels/help%20wanted)
-[![issues](https://badgen.net/github/open-issues/doocs/redis-multi-programming-language-practice)](https://github.com/doocs/redis-multi-programming-language-practice/issues)
+[![Languages](https://badgen.net/badge/langs/Python,Java,.../green?list=1)](https://github.com/yanglbme/redis-multi-programming-language-practice)
 [![PRs Welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 [![doocs-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](#how-to-join)
 [![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/doocs)
@@ -13,19 +8,19 @@
 
 另，本项目针对不同编程语言，使用了其对应的 Redis 库，方便程序对 Redis 进行各项操作：
 
-| # | 语言 | 库 | 版本 | 使用 |
+| # | Lang | Lib | Version | Usage |
 |---|---|---|---|---|
 | 1 | Python3 | [`redis`](https://pypi.org/project/redis/) | `v3.3.8` | `pip3 install redis `|
 | 2 | Java8 | [`jedis`](https://mvnrepository.com/artifact/redis.clients/jedis/3.1.0) | `v3.1.0` | `compile group: 'redis.clients', name: 'jedis', version: '3.1.0'` |
 
-欢迎各位开发朋友补充更多的实际应用场景，让项目内容更加完善。
+欢迎补充更多的实际应用场景，让项目内容更加完善。如果你认为演示代码有待改进，可以在 Issues 区反馈，当然，你也可以直接发起 Pull Request。
 
-书籍参考：
+注，本项目部分知识点参考以下两本书籍，内容很好，都值得一读，所以我个人推荐你购买学习，相信一定会有不少收获。
 
-| # | 书名 | 作者 | 推荐指数 |
+| # | Title | Author | Summary |
 |---|---|---|---|
-| 1 | Redis 深度历险：核心原理和应用实践[2018] | 钱文品 | ⭐⭐⭐⭐⭐ |
-| 2 | Redis 使用手册[2019] | 黄健宏 | ⭐⭐⭐⭐⭐ |
+| 1 | Redis 深度历险：核心原理和应用实践[2018] | 钱文品 | 从 Redis 的基础使用出发，结合实际项目中遇到的诸多应用场景，最后详细讲解集群环境，图文并茂地对 Redis 的特性做了全面解析。 |
+| 2 | Redis 使用手册[2019] | 黄健宏 | 帮助读者学习如何将 Redis 应用到实际开发中，内容涵盖最新的 Redis 5。 |
 
 
 学习下面知识之前，先来[感受一波 Redis 面试连环炮](/docs/redis-interview.md)。
