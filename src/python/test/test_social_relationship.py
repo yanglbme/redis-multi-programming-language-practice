@@ -4,10 +4,9 @@ from redis import Redis
 
 from main.social_relationship import SocialRelationship
 
-test_case = TestCase()
-
 
 def test_sns():
+    test_case = TestCase()
     redis = Redis(decode_responses=True)
     bingo = SocialRelationship(redis, 'Bingo')
     iris = SocialRelationship(redis, 'Iris')
