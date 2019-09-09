@@ -39,6 +39,7 @@
 ### [Sorted Sets 有序集合](/docs/redis-sorted-set-introduction.md)
 - [社交网站通常会有粉丝关注的功能，用 Redis 怎么实现？](/docs/redis-sorted-set-sns-follow.md)
 - [每日、每周、每月积分排行榜功能该怎么实现？](/docs/redis-sorted-set-ranking-or-trending-list.md)
+- [关键词搜索，如何用 Redis 实现自动补全？](/docs/redis-sorted-set-auto-complete.md)
 
 ### [Hash 哈希](/docs/redis-hash-introduction.md)
 - [登录会话，用 Redis 该怎么做？](/docs/redis-hash-session-token.md)
