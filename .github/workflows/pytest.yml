@@ -3,10 +3,10 @@ name: pytest
 on:
   push:
     paths: 
-    - 'src/python/test/*.py'
+    - 'python/src/test/*.py'
   pull_request:
     paths:
-    - 'src/python/test/*.py'
+    - 'python/src/test/*.py'
 
 jobs:
   build:
