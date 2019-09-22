@@ -2,7 +2,7 @@
 [![pytest](https://github.com/yanglbme/redis-multi-programming-language-practice/workflows/pytest/badge.svg)](https://github.com/yanglbme/redis-multi-programming-language-practice/actions)
 [![java-ci](https://github.com/yanglbme/redis-multi-programming-language-practice/workflows/Java%20CI/badge.svg)](https://github.com/yanglbme/redis-multi-programming-language-practice/actions)
 [![prs-welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
-[![doocs-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](#how-to-join)
+[![doocs-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](https://doocs.github.io/#/?id=how-to-join)
 [![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/doocs)
 
 本项目主要讲解 Redis 的底层原理以及在各种场景下的应用。所有演示代码均基于 Redis 最新稳定版本 `v5.0.3`，不同操作系统下 Redis 的安装方式请自行搜索，就不在此赘述了。
@@ -15,14 +15,6 @@
 | 2 | Java8 | [`jedis`](https://mvnrepository.com/artifact/redis.clients/jedis/3.1.0) | `v3.1.0` | `compile group: 'redis.clients', name: 'jedis', version: '3.1.0'` |
 
 欢迎补充更多的实际应用场景，让项目内容更加完善。如果你认为演示代码有待改进，可以在 Issues 区反馈，当然，你也可以直接发起 Pull Request。
-
-注，本项目部分知识点参考以下两本书籍，内容很好，都值得一读，所以我个人推荐你购买学习，相信一定会有不少收获。
-
-| # | Title | Author | Summary |
-|---|---|---|---|
-| 1 | Redis 深度历险：核心原理和应用实践[2018] | 钱文品 | 从 Redis 的基础使用出发，结合实际项目中遇到的诸多应用场景，最后详细讲解集群环境，图文并茂地对 Redis 的特性做了全面解析。 |
-| 2 | Redis 使用手册[2019] | 黄健宏 | 帮助读者学习如何将 Redis 应用到实际开发中，内容涵盖最新的 Redis 5。 |
-
 
 ## Redis 数据结构与应用
 
@@ -47,3 +39,7 @@
 ### [HyperLogLog](/docs/redis-hyperLogLog-introduction.md)
 
 ### [Bitmap 位图](/docs/redis-bitmap-introduction.md)
+
+## 参考资料
+- Redis 深度历险：核心原理和应用实践[2018]
+- Redis 使用手册[2019]
