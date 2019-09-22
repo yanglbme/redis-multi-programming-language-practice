@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class DistributedLockTest {
 
     @Test
-    public void test() throws InterruptedException {
+    public void testDistributedLock() throws InterruptedException {
         Jedis jedis = new Jedis();
         jedis.flushAll();
 

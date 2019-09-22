@@ -24,8 +24,6 @@
 | 2 | Redis 使用手册[2019] | 黄健宏 | 帮助读者学习如何将 Redis 应用到实际开发中，内容涵盖最新的 Redis 5。 |
 
 
-学习下面知识之前，先来[感受一波 Redis 面试连环炮](/docs/redis-interview.md)。
-
 ## Redis 数据结构与应用
 
 ### [String 字符串](/docs/redis-string-introduction.md)
