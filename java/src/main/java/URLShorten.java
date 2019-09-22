@@ -1,7 +1,8 @@
 import redis.clients.jedis.Jedis;
+import utils.JedisUtils;
 
 public class URLShorten {
-    private Jedis client;
+    private Jedis client = JedisUtils.getClient();
 
     private final String URL_HASH_SHORT_SOURCE_KEY = "url_hash:short_source";
     private final String ID_COUNTER = "short_url:id_counter";
@@ -24,8 +25,7 @@ public class URLShorten {
         return result.toString();
     }
 
-    public URLShorten(Jedis client) {
-        this.client = client;
+    public URLShorten() {
         // 设置初始ID值，保留1-5位的短码，从6位的短码开始生成
         this.client.set(ID_COUNTER, String.valueOf((long) Math.pow(36, 5) - 1));
     }

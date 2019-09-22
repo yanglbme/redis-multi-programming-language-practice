@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-import redis.clients.jedis.Jedis;
 
 import java.util.Arrays;
 
@@ -9,10 +8,7 @@ public class PaginateTest {
 
     @Test
     public void testPaginate() {
-        Jedis client = new Jedis();
-        client.flushAll();
-
-        Paginate topics = new Paginate(client, "user-topics");
+        Paginate topics = new Paginate("user-topics");
         for (int i = 0; i < 24; ++i) {
             topics.add(i + "");
         }

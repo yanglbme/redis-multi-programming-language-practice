@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-import redis.clients.jedis.Jedis;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -7,9 +6,7 @@ public class LoginSessionTest {
 
     @Test
     public void testLoginSession() {
-        Jedis client = new Jedis();
-        client.flushAll();
-        LoginSession session = new LoginSession(client, "bingo");
+        LoginSession session = new LoginSession("bingo");
 
         String token = session.create();
 

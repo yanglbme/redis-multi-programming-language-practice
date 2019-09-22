@@ -1,12 +1,13 @@
 import redis.clients.jedis.Jedis;
+import utils.JedisUtils;
 
 import java.util.Set;
 
 public class AutoComplete {
-    private Jedis client = new Jedis();
+    private Jedis client = JedisUtils.getClient();
 
     public AutoComplete() {
-        client.flushAll();
+
     }
 
     /**

@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-import redis.clients.jedis.Jedis;
 
 import java.util.concurrent.TimeUnit;
 
@@ -10,10 +9,7 @@ public class DistributedLockTest {
 
     @Test
     public void testDistributedLock() throws InterruptedException {
-        Jedis jedis = new Jedis();
-        jedis.flushAll();
-
-        DistributedLock lock = new DistributedLock(jedis, "bingo_distributed_lock");
+        DistributedLock lock = new DistributedLock("bingo_distributed_lock");
         assertTrue(lock.acquire(10));
         assertFalse(lock.acquire(10));
 

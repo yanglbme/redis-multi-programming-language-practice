@@ -1,16 +1,16 @@
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.params.SetParams;
+import utils.JedisUtils;
 
 import java.util.UUID;
 
 
 public class DistributedLock {
 
-    private Jedis client;
+    private Jedis client = JedisUtils.getClient();
     private String key;
 
-    public DistributedLock(Jedis client, String key) {
-        this.client = client;
+    public DistributedLock(String key) {
         this.key = key;
     }
 

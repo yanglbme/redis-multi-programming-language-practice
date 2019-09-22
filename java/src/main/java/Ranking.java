@@ -1,5 +1,6 @@
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Tuple;
+import utils.JedisUtils;
 
 import java.util.Calendar;
 import java.util.Set;
@@ -9,11 +10,10 @@ import java.util.Set;
  * @date 2019/9/7
  */
 public class Ranking {
-    private Jedis client = new Jedis();
+    private Jedis client = JedisUtils.getClient();
     private Calendar calendar = Calendar.getInstance();
 
     public Ranking() {
-        client.flushAll();
         calendar.setFirstDayOfWeek(Calendar.MONDAY);
     }
 

@@ -1,14 +1,14 @@
 import redis.clients.jedis.Jedis;
+import utils.JedisUtils;
 
 import java.util.List;
 
 public class Paginate {
 
-    private Jedis client;
+    private Jedis client = JedisUtils.getClient();
     private String key;
 
-    public Paginate(Jedis client, String key) {
-        this.client = client;
+    public Paginate(String key) {
         this.key = key;
     }
 

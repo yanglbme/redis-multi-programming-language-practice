@@ -1,5 +1,6 @@
 import org.apache.commons.codec.binary.Hex;
 import redis.clients.jedis.Jedis;
+import utils.JedisUtils;
 
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
@@ -17,11 +18,10 @@ public class LoginSession {
     private final String SESSION_TOKEN_CORRECT = "SESSION_TOKEN_CORRECT";
     private final String SESSION_TOKEN_INCORRECT = "SESSION_TOKEN_INCORRECT";
 
-    private Jedis client;
+    private Jedis client = JedisUtils.getClient();
     private String userId;
 
-    public LoginSession(Jedis client, String userId) {
-        this.client = client;
+    public LoginSession(String userId) {
         this.userId = userId;
     }
 
