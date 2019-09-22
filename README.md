@@ -1,7 +1,6 @@
 # Redis 底层原理分析与多语言应用实践<sup>[©](https://github.com/yanglbme)</sup>
 [![pytest](https://github.com/yanglbme/redis-multi-programming-language-practice/workflows/pytest/badge.svg)](https://github.com/yanglbme/redis-multi-programming-language-practice/actions)
-[![gradle](https://github.com/yanglbme/redis-multi-programming-language-practice/workflows/gradle/badge.svg)](https://github.com/yanglbme/redis-multi-programming-language-practice/actions)
-
+[![java-ci](https://github.com/yanglbme/redis-multi-programming-language-practice/workflows/Java%20CI/badge.svg)](https://github.com/yanglbme/redis-multi-programming-language-practice/actions)
 [![prs-welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 [![doocs-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](#how-to-join)
 [![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/doocs)
