@@ -24,6 +24,7 @@
 - [用 Redis 如何实现页面数据分页的效果？](/docs/redis-list-paginate.md)
 
 ### [Set 集合](/docs/redis-set-introduction.md)
+- [如何用 Redis 实现论坛帖子的点赞点踩功能？](/docs/redis-set-like-and-dislike.md)
 
 ### [Sorted Sets 有序集合](/docs/redis-sorted-set-introduction.md)
 - [社交网站通常会有粉丝关注的功能，用 Redis 怎么实现？](/docs/redis-sorted-set-sns-follow.md)
