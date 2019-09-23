@@ -1,12 +1,6 @@
 name: Java CI
 
-on:
-  push:
-    paths:
-    - 'java/*'
-  pull_request:
-    paths:
-    - 'java/*'
+on: [push, pull_request]
 
 jobs:
   build:
