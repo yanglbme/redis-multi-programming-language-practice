@@ -9,10 +9,8 @@
 
 另，本项目针对不同编程语言，使用了其对应的 Redis 库，方便程序对 Redis 进行各项操作：
 
-| # | Lang | Lib | Version | Usage |
-|---|---|---|---|---|
-| 1 | Python3 | [`redis`](https://pypi.org/project/redis/) | `v3.3.8` | `pip3 install redis `|
-| 2 | Java8 | [`jedis`](https://mvnrepository.com/artifact/redis.clients/jedis/3.1.0) | `v3.1.0` | `compile group: 'redis.clients', name: 'jedis', version: '3.1.0'` |
+- Python: 使用 pip 安装 redis 库，`pip install redis`
+- Java: 使用 gradle 导入 jedis 库，`compile group: 'redis.clients', name: 'jedis', version: '3.1.0'`
 
 欢迎补充更多的实际应用场景，让项目内容更加完善。如果你认为演示代码有待改进，可以在 Issues 区反馈，当然，你也可以直接发起 Pull Request。
 
@@ -41,5 +39,5 @@
 ### [Bitmap 位图](/docs/redis-bitmap-introduction.md)
 
 ## 参考资料
-- Redis 深度历险：核心原理和应用实践[2018]
+- Redis 深度历险[2018]
 - Redis 使用手册[2019]
