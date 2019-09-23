@@ -4,7 +4,6 @@ import utils.JedisUtils;
 
 import java.util.UUID;
 
-
 public class DistributedLock {
 
     private Jedis client = JedisUtils.getClient();

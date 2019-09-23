@@ -13,9 +13,16 @@ public class AutoCompleteTest {
         ac.feed("张艺谋", 3000);
         ac.feed("张三", 500);
         assertEquals(ac.hint("张", 10),
-                new LinkedHashSet<String>() {{ add("张艺兴"); add("张艺谋"); add("张三"); }});
+                new LinkedHashSet<String>() {{
+                    add("张艺兴");
+                    add("张艺谋");
+                    add("张三");
+                }});
 
         assertEquals(ac.hint("张艺", 10),
-                new LinkedHashSet<String>() {{ add("张艺兴"); add("张艺谋"); }});
+                new LinkedHashSet<String>() {{
+                    add("张艺兴");
+                    add("张艺谋");
+                }});
     }
 }

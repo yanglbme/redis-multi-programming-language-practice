@@ -11,7 +11,7 @@ public class LoginSessionTest {
         String token = session.create();
 
         String res = session.validate("this is a wrong token");
-        assertEquals( "SESSION_TOKEN_INCORRECT", res);
+        assertEquals("SESSION_TOKEN_INCORRECT", res);
 
         res = session.validate(token);
         assertEquals("SESSION_TOKEN_CORRECT", res);

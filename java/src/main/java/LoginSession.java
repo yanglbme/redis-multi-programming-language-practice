@@ -7,7 +7,6 @@ import java.security.NoSuchAlgorithmException;
 import java.time.Instant;
 import java.util.Random;
 
-
 public class LoginSession {
 
     private final String SESSION_TOKEN_KEY = "SESSION:TOKEN";
