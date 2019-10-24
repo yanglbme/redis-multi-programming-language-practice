@@ -7,7 +7,6 @@ public class AutoComplete {
     private Jedis client = JedisUtils.getClient();
 
     public AutoComplete() {
-
     }
 
     /**
