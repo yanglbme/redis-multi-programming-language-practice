@@ -1,3 +1,6 @@
-docs/* @yanglbme
-java/* @yanglbme
-python/* @yanglbme
+.py @yanglbme
+.java @yanglbme
+
+docs/ @yanglbme
+java/ @yanglbme
+python/ @yanglbme
