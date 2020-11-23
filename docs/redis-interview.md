@@ -1,6 +1,7 @@
 # Redis 面试场景
 
 ## 1. 考察 Redis 基本数据结构
+
 - **面试官**：Redis 都有哪些数据结构？
 
 - **候选人**：（小 case，很自信地回答）Redis 有 5 种数据结构，分别是 `String`、`List`、`Hash`、`Set`、`Sorted Set`，其中 `Sorted Set` 是有序集合。
@@ -12,6 +13,7 @@
 **分析**：这其实是一个很基础的问题，相信绝大部分同学都能回答出以上 5 种数据结构，但是，如果你对 Redis 有更加深入的了解，那么你应该回答 Redis 还有 `HyperLogLog`、`Bitmap`、`Geo`、`Pub/Sub` 等数据结构，甚至还可以回答你玩儿过 `Redis Module`，像 `BloomFilter`、`RedisSearch`、`Redis-ML`，想必面试官会眼前一亮，嗯，这小伙子还不错嘛，知道这么多。
 
 ## 2. 考察 Redis 分布式锁
+
 - **面试官**：那你有没有用过 Redis 分布式锁？
 
 - **候选人**：用过的。

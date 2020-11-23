@@ -1,10 +1,12 @@
 # 利用 Redis Sorted Set 实现日/周/月排行榜
 
 ## 代码实现
+
 | [Python](#Python-版本) | [Java](#Java-版本) |
-|---|---|
+| ---------------------- | ------------------ |
 
 ### Python 版本
+
 ```python
 import datetime
 import time
@@ -62,6 +64,7 @@ if __name__ == '__main__':
 ```
 
 ### Java 版本
+
 ```java
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.Tuple;

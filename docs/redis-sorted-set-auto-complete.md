@@ -1,10 +1,12 @@
 # 利用 Redis Sorted Set 实现自动补全
 
 ## 代码实现
+
 | [Python](#Python-版本) | [Java](#Java-版本) |
-|---|---|
+| ---------------------- | ------------------ |
 
 ### Python 版本
+
 ```python
 from redis import Redis
 
@@ -37,6 +39,7 @@ if __name__ == '__main__':
 ```
 
 ### Java 版本
+
 ```java
 import redis.clients.jedis.Jedis;
 

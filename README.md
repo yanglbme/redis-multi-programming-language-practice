@@ -1,5 +1,5 @@
 # Redis 底层原理分析与多语言应用实践<sup>[©](https://github.com/yanglbme)</sup>
-[![pytest](https://github.com/yanglbme/redis-multi-programming-language-practice/workflows/pytest/badge.svg)](https://github.com/yanglbme/redis-multi-programming-language-practice/actions)
+
 [![java-ci](https://github.com/yanglbme/redis-multi-programming-language-practice/workflows/Java%20CI/badge.svg)](https://github.com/yanglbme/redis-multi-programming-language-practice/actions)
 [![prs-welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 [![doocs-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](https://doocs.github.io/#/?id=how-to-join)
@@ -17,21 +17,26 @@
 ## Redis 数据结构与应用
 
 ### [String 字符串](/docs/redis-string-introduction.md)
+
 - [说说如何基于 Redis 实现分布式锁？](/docs/redis-distributed-lock.md)
 
 ### [List 列表](/docs/redis-list-introduction.md)
+
 - 如何利用 Redis List 实现异步消息队列？
 - [用 Redis 如何实现页面数据分页的效果？](/docs/redis-list-paginate.md)
 
 ### [Set 集合](/docs/redis-set-introduction.md)
+
 - [如何用 Redis 实现论坛帖子的点赞点踩功能？](/docs/redis-set-like-and-dislike.md)
 
 ### [Sorted Sets 有序集合](/docs/redis-sorted-set-introduction.md)
+
 - [社交网站通常会有粉丝关注的功能，用 Redis 怎么实现？](/docs/redis-sorted-set-sns-follow.md)
 - [每日、每周、每月积分排行榜功能该怎么实现？](/docs/redis-sorted-set-ranking-or-trending-list.md)
 - [关键词搜索，如何用 Redis 实现自动补全？](/docs/redis-sorted-set-auto-complete.md)
 
 ### [Hash 哈希](/docs/redis-hash-introduction.md)
+
 - [登录会话，用 Redis 该怎么做？](/docs/redis-hash-session-token.md)
 - [如何使用 Redis 实现短网址服务？](/docs/redis-hash-shorten-url.md)
 
@@ -40,5 +45,6 @@
 ### [Bitmap 位图](/docs/redis-bitmap-introduction.md)
 
 ## 参考资料
+
 - Redis 深度历险[2018]
 - Redis 使用手册[2019]

@@ -1,9 +1,9 @@
 # 使用 Redis String 实现分布式锁
 
-
 ## 代码实现
+
 | [Python](#Python-版本) | [Java](#Java-版本) |
-|---|---|
+| ---------------------- | ------------------ |
 
 ### Python 版本
 
@@ -91,7 +91,7 @@ public class DistributedLock {
         SetParams params = new SetParams().ex(timeout).nx();
         return client.set(key, generateRandomValue(), params) != null;
     }
-    
+
     public boolean acquire() {
         int timeout = 10;
         return acquire(timeout);

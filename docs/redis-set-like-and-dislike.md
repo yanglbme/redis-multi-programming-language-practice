@@ -1,10 +1,12 @@
 # 利用 Redis Set 实现点赞点踩功能
 
 ## 代码实现
+
 | [Python](#Python-版本) | [Java](#Java-版本) |
-|---|---|
+| ---------------------- | ------------------ |
 
 ### Python 版本
+
 ```python
 from redis import Redis
 
@@ -65,6 +67,7 @@ if __name__ == '__main__':
 ```
 
 ### Java 版本
+
 ```java
 import redis.clients.jedis.Jedis;
 import utils.JedisUtils;
@@ -136,10 +139,10 @@ public class LikeService {
     public Long getLikeCount(String entityId) {
         return client.scard(getLikeKey(entityId));
     }
-    
+
     public static void main(String[] args){
         LikeService likeService = new LikeService();
-        
+
         String entityId = "user1";
         System.out.println(likeService.getLikeCount(entityId)); // 0
 
