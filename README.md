@@ -1,6 +1,5 @@
 # Redis 底层原理分析与多语言应用实践<sup>[©](https://github.com/yanglbme)</sup>
 
-[![java-ci](https://github.com/yanglbme/redis-multi-programming-language-practice/workflows/Java%20CI/badge.svg)](https://github.com/yanglbme/redis-multi-programming-language-practice/actions)
 [![prs-welcome](https://badgen.net/badge/PRs/welcome/green)](http://makeapullrequest.com)
 [![doocs-open-source-organization](https://badgen.net/badge/organization/join%20us/cyan)](https://doocs.github.io/#/?id=how-to-join)
 [![gitter](https://badgen.net/badge/gitter/chat/cyan)](https://gitter.im/doocs)
@@ -43,8 +42,3 @@
 ### [HyperLogLog](/docs/redis-hyperLogLog-introduction.md)
 
 ### [Bitmap 位图](/docs/redis-bitmap-introduction.md)
-
-## 参考资料
-
-- Redis 深度历险[2018]
-- Redis 使用手册[2019]
